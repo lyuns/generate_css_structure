@@ -1,0 +1,17 @@
+{
+  "name": "gen_css_structure",
+  "version": "1.0.0",
+  "description": "根据html自动生成css结构，便于直接编写css样式，便于前端写css",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./lib/generate"
+  },
+  "keywords": [],
+  "author": "zhaoyp",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "co": "^4.6.0",
+    "thunkify": "^2.1.2"
+  }
+}
