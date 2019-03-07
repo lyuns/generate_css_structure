@@ -5,7 +5,7 @@
 
 ## Examples
 
-* <a href="https://github.com/lyuns/generate_css_structure/tree/master/dist/result.scss">可能会是你想要的scss样子！</a>
+* <a href="https://github.com/lyuns/generate_css_structure/tree/master/dist/result.scss">可能会是你想要的scss结构！</a>
 
 Running the examples:
 
