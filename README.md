@@ -17,7 +17,7 @@ $ npm run start
 配置文件：
 
 配置项 | 说明
-:---: | :---: 
+:---: | ---
 *src* | 源html文件 
 *dist* | 生成目标目录
 *filename* | 目标文件名（*.scss 或 *.less） 
