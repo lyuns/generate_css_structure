@@ -4,6 +4,57 @@
 
 
 ## 示例成果
+before:
+``` bash
+<div class="root">
+    <div class="header">
+        <img src="#" alt="">
+    </div>
+    <div class="content">
+        <div class="breadcrumb">xxx -> xxx -> xxx</div>
+        <div class="list">
+            <a href="#" class="item">xxx</a>
+            <a href="#" class="item">xxx</a>
+            <a href="#" class="item">xxx</a>
+            <a href="#" class="item">xxx</a>
+        </div>
+        <div class="pager">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">xxx</div>
+    </div>
+</div>
+```
+after:
+``` bash
+.root {
+  .header {
+    img {
+    }
+  }
+  .content {
+    .breadcrumb {
+    }
+    .list {
+      .item {
+      }
+    }
+    .pager {
+      .item {
+      }
+    }
+  }
+  .footer {
+    .copyright {
+    }
+  }
+}
+
+```
 
 * <a href="https://github.com/lyuns/generate_css_structure/tree/master/dist/result.scss">可能会是你想要的scss结构！</a>
 
