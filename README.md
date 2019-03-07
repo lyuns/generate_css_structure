@@ -14,6 +14,13 @@ $ npm install
 $ npm run start
 ```
 
+配置文件：
+
+src:  源html文件
+dist: 生成目标目录
+filename: 目标文件名（*.scss 或 *.less） 
+selector: 根选择器（类似于jquery）
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
