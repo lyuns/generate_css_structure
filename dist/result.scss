@@ -1,22 +1,38 @@
-.root {
-  .header {
-    img {
-    }
+.header {
+  img {
   }
-  .content {
-    .breadcrumb {
-    }
+}
+.content {
+  .breadcrumb {
+  }
+  .side {
     .list {
       .item {
       }
     }
-    .pager {
-      .item {
+  }
+  .main {
+    .form {
+      .form-group {
+        input {
+        }
+        button {
+        }
       }
     }
   }
-  .footer {
-    .copyright {
+  .pager {
+    &.disabled {
+    }
+    &.active {
+    }
+  }
+}
+.footer {
+  .copyright {
+    .bold {
+    }
+    span {
     }
   }
 }

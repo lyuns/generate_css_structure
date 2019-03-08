@@ -2,5 +2,5 @@
   "src": "./src/index.html",
   "dest": "./dist",
   "filename": "result.scss",
-  "selector": "body"
+  "selector": ".root"
 }

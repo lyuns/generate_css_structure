@@ -19,48 +19,80 @@ before:
     </div>
     <div class="content">
         <div class="breadcrumb">xxx -> xxx -> xxx</div>
-        <div class="list">
-            <a href="#" class="item">xxx</a>
-            <a href="#" class="item">xxx</a>
-            <a href="#" class="item">xxx</a>
-            <a href="#" class="item">xxx</a>
+        <div class="side">
+            <div class="list">
+                <a href="#" class="item">xxx</a>
+                <a href="#" class="item">xxx</a>
+                <a href="#" class="item">xxx</a>
+                <a href="#" class="item">xxx</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="form">
+                <div class="form-group">
+                    <input type="text">
+                </div>
+                <div class="form-group">
+                    <button>XXX</button>
+                </div>
+            </div>
         </div>
         <div class="pager">
-            <div class="item">1</div>
+            <div class="item disabled">上一页</div>
+            <div class="item active">1</div>
             <div class="item">2</div>
             <div class="item">3</div>
+            <div class="item">下一页</div>
         </div>
     </div>
     <div class="footer">
-        <div class="copyright">xxx</div>
+        <div class="copyright">
+            <span class="bold">XXX</span>
+            <span>xxx</span>
+        </div>
     </div>
 </div>
 ```
 after:
 ``` bash
-.root {
-  .header {
-    img {
-    }
+.header {
+  img {
   }
-  .content {
-    .breadcrumb {
-    }
+}
+.content {
+  .breadcrumb {
+  }
+  .side {
     .list {
       .item {
       }
     }
-    .pager {
-      .item {
+  }
+  .main {
+    .form {
+      .form-group {
+        input {
+        }
+        button {
+        }
       }
     }
   }
-  .footer {
-    .copyright {
+  .pager {
+    &.disabled {
+    }
+    &.active {
     }
   }
 }
-
+.footer {
+  .copyright {
+    .bold {
+    }
+    span {
+    }
+  }
+}
 ```
 
 * <a href="https://github.com/lyuns/generate_css_structure/tree/master/dist/result.scss">可能会是你想要的scss结构！</a>
