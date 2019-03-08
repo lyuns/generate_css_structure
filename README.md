@@ -5,7 +5,7 @@
 
 *根据html自动生成scss结构，减少重复乏味的编写css结构流程，专注于更重要的部分。*
 
-*多个class默认使用第一个class，无class使用tag标签*
+*多个class默认使用第一个class，其他class作为追加*
 
 *欢迎各位前端开发使用*
 
