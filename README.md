@@ -11,6 +11,8 @@
 
 *欢迎各位前端开发使用*
 
+<a href="http://zhaoyunpeng.com/workshop/gen">查看在线生成</a>
+
 
 ### 示例成果
 before:
