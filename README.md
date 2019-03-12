@@ -83,9 +83,11 @@ after:
     }
   }
   .pager {
-    &.disabled {
-    }
-    &.active {
+    .item {
+      &.disabled {
+      }
+      &.active {
+      }
     }
   }
 }
@@ -97,6 +99,7 @@ after:
     }
   }
 }
+
 ```
 
 * <a href="https://github.com/lyuns/generate_css_structure/tree/master/dist/result.scss">可能会是你想要的scss结构！</a>
