@@ -22,9 +22,11 @@
     }
   }
   .pager {
-    &.disabled {
-    }
-    &.active {
+    .item {
+      &.disabled {
+      }
+      &.active {
+      }
     }
   }
 }
